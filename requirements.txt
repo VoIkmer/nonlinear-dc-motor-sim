@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 numpy
 matplotlib
 control
 pandas
+=======
+numpy
+matplotlib
+control
+pandas
+>>>>>>> 27b4212af6da5fe51b3466e723a0473b003aa2d0
