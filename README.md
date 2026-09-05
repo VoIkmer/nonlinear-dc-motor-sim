@@ -4,7 +4,6 @@
 This repository contains a Jupyter notebook that models a DC motor with a nonlinear aerodynamic load (fan), linearizes the model around an operating point, designs PID controllers by pole placement, and demonstrates sampling/reconstruction and aliasing effects from Lathi.
 
 ## Contents
-- `ModelagemMotorCC.ipynb` — main notebook (translated to English, installer cell removed).
 - `notebooks/01_dc_motor_modeling_and_simulation.ipynb` — exact copy of the notebook for distribution.
 - `src/` — reusable simulation helper functions.
 - `images/` — saved figures used in the README and report.
@@ -104,14 +103,6 @@ Below are the key figures produced by the notebook. They are tracked in the repo
 
 ## Git / Commit Recommendations
 To initialize the repository and commit the prepared assets:
-
-```
-git init
-git add .
-git commit -m "Initial: translated notebook, src module, images, README"
-```
-
-If you want me to run git commands here, confirm and I'll proceed.
 
 ## Notes
 - `SAVE_IMAGES` toggle prevents repeated image creation; set it to `True` only when you want to (re)generate figures.
